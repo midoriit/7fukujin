@@ -1,27 +1,29 @@
 ﻿<!DOCTYPE html>
 <html>
   <head>
-    <title>タイトル</title>
+    <title>東京・神奈川の七福神めぐり</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta property="og:image" content="https://midoriit.github.io/SimplePoiMap/SimplePoiMap.png">
-    <meta property="og:url" content="https://midoriit.github.io/SimplePoiMap/" />
-    <meta property="og:title" content="タイトル" />
-    <meta property="og:description" content="説明" />
+    <meta property="og:image" content="">
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="東京・神奈川の七福神めぐり" />
+    <meta property="og:description" content="東京都と神奈川県の七福神めぐりの札所をマップにしました" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="css/leaflet.css" type="text/css">
     <link rel="stylesheet" href="css/easy-button.css" type="text/css" />
+    <link rel="stylesheet" href="css/leaflet.awesome-markers.css">
     <link rel="stylesheet" href="css/map.css" type="text/css">
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/leaflet.js"></script>
     <script type="text/javascript" src="js/easy-button.js"></script>
+    <script type="text/javascript" src="js/leaflet.awesome-markers.js"></script>
     <script type="text/javascript" src="js/map.js"></script>
   </head>
   <body>
-    <div id="titleDiv"><span id="titleSpan">タイトル</span></div>
+    <div id="titleDiv"><span id="titleSpan">東京・神奈川の七福神めぐり</span></div>
     <div id="mapdiv"></div>
     <div id="about" class="modal fade">
       <div class="modal-dialog">
@@ -31,7 +33,7 @@
             <h4 class="modal-title">このサイトについて</h4>
           </div>
           <div class="modal-body">
-            <p>説明文
+            <p>東京都と神奈川県の七福神めぐりの札所をマップにしました。作者が参拝したことのある札所のみ掲載しています。
             </p>
             <p>当サイトは以下のオープンソースソフトウェアを利用しています。
               <ul>
@@ -40,9 +42,11 @@
                 <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> (MIT license)
                 <li><a href="https://jquery.com/" target="_blank">jQuery</a> (MIT license)
                 <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> (SIL OFL 1.1)
+                <li><a href="https://github.com/lennardv2/Leaflet.awesome-markers" target="_blank">Leaflet.awesome-markers</a> (MIT license)
                 <li><a href="https://github.com/midoriit/SimplePoiMap" target="_blank">SimplePoiMap</a> (MIT license)
               </ul>
             </p>
+            <p>Copyright &copy; 2021 <a href="https://midoriit.com" target="_blank">Midori IT, LLC</a>.</p>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">閉じる</button>
