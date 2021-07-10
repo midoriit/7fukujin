@@ -3,6 +3,8 @@
 
 GitHub Pagesによる表示は [こちら](https://midoriit.github.io/7fukujin/)
 
+データはLinkData.orgの[東京・神奈川の七福神めぐり](http://linkdata.org/work/rdf1s8812i)でCC-BYライセンスで公開しています。 
+
 ## OSSライセンス
 
 * [Leaflet](https://leafletjs.com/) (2-Clause BSD)
